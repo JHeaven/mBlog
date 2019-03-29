@@ -2,3 +2,7 @@ baseURL = "http://www.jiangyuqin.com/"
 languageCode = "en-us"
 title = "HEAVEN JIANG"
 theme = "code-editor"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
