@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on HEAVEN JIANG</title>
+    <title>Tags on 布洛阁 - Heaven Jiang</title>
     <link>http://www.jiangyuqin.com/tags/</link>
-    <description>Recent content in Tags on HEAVEN JIANG</description>
+    <description>Recent content in Tags on 布洛阁 - Heaven Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 22 Mar 2019 17:43:10 +0800</lastBuildDate>
+    <language>zh-Hans</language>
+    <lastBuildDate>Tue, 26 Mar 2019 16:43:10 +0800</lastBuildDate>
     
 	<atom:link href="http://www.jiangyuqin.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Daily</title>
+      <link>http://www.jiangyuqin.com/tags/daily/</link>
+      <pubDate>Tue, 26 Mar 2019 16:43:10 +0800</pubDate>
+      
+      <guid>http://www.jiangyuqin.com/tags/daily/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hahaha</title>
+      <link>http://www.jiangyuqin.com/tags/hahaha/</link>
+      <pubDate>Fri, 22 Mar 2019 17:43:10 +0800</pubDate>
+      
+      <guid>http://www.jiangyuqin.com/tags/hahaha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hehehe</title>
+      <link>http://www.jiangyuqin.com/tags/hehehe/</link>
+      <pubDate>Fri, 22 Mar 2019 17:43:10 +0800</pubDate>
+      
+      <guid>http://www.jiangyuqin.com/tags/hehehe/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Huhuhu</title>
@@ -17,6 +44,15 @@
       <pubDate>Fri, 22 Mar 2019 17:43:10 +0800</pubDate>
       
       <guid>http://www.jiangyuqin.com/tags/huhuhu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Muggle</title>
+      <link>http://www.jiangyuqin.com/tags/muggle/</link>
+      <pubDate>Tue, 26 Mar 2019 16:43:10 +0800</pubDate>
+      
+      <guid>http://www.jiangyuqin.com/tags/muggle/</guid>
       <description></description>
     </item>
     

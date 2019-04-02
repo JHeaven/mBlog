@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on HEAVEN JIANG</title>
+    <title>Posts on 布洛阁 - Heaven Jiang</title>
     <link>http://www.jiangyuqin.com/post/</link>
-    <description>Recent content in Posts on HEAVEN JIANG</description>
+    <description>Recent content in Posts on 布洛阁 - Heaven Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 22 Mar 2019 17:43:10 +0800</lastBuildDate>
+    <language>zh-Hans</language>
+    <lastBuildDate>Tue, 26 Mar 2019 16:43:10 +0800</lastBuildDate>
     
 	<atom:link href="http://www.jiangyuqin.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Readme-daily</title>
+      <link>http://www.jiangyuqin.com/post/daily/read/</link>
+      <pubDate>Tue, 26 Mar 2019 16:43:10 +0800</pubDate>
+      
+      <guid>http://www.jiangyuqin.com/post/daily/read/</guid>
+      <description>``init&amp;hellip;&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Readme-muggle</title>
+      <link>http://www.jiangyuqin.com/post/muggle/read/</link>
+      <pubDate>Tue, 26 Mar 2019 16:43:10 +0800</pubDate>
+      
+      <guid>http://www.jiangyuqin.com/post/muggle/read/</guid>
+      <description>init&amp;hellip;&amp;hellip;</description>
+    </item>
     
     <item>
       <title>Welcome</title>
@@ -17,7 +35,7 @@
       <pubDate>Fri, 22 Mar 2019 17:43:10 +0800</pubDate>
       
       <guid>http://www.jiangyuqin.com/post/welcome/</guid>
-      <description></description>
+      <description>简单介绍一下搭建过程，和搭建过程中遇到的坑 简单介绍一下搭建过程，和搭建过程中遇到的坑 简单介绍一下搭建过程，和搭建过程中遇到的坑 简单介绍一下搭建过程，和搭建过程中遇到的坑 简单介绍一下搭建过程，和搭建过程中遇到的坑 简单介绍一下搭建过程，和搭建过程中遇到的坑</description>
     </item>
     
   </channel>
