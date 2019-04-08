@@ -13,10 +13,10 @@ theme = "AllinOne"
 
 [menu]
   [[menu.main]]
-    name                   = "Blog"
+    name                   = "Post"
     weight                 = -120
-    identifier             = "blog"
-    url                    = "blog/"  
+    identifier             = "post"
+    url                    = "post/"  
 
   [[menu.main]]
     name                   = "Moment"
@@ -72,5 +72,7 @@ slidesDirPathURL           = "img/header-slides"
   
   # analytics
   googleAnalytics          = "your-google-analytic-id"
+
+  hasCJKLanguage = true
 
 # AllinOne Config End

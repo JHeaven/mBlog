@@ -18,18 +18,51 @@
   </url>
   
   <url>
-    <loc>http://www.jiangyuqin.com/categories/</loc>
+    <loc>http://www.jiangyuqin.com/about/</loc>
+    <lastmod>2019-03-22T17:41:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.jiangyuqin.com/post/bootstrap2/3-%E5%B8%83%E5%B1%80/</loc>
+    <lastmod>2016-09-18T15:30:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.jiangyuqin.com/post/bootstrap2/2-%E5%9F%BA%E7%A1%80%E6%A8%A1%E7%89%88/</loc>
+    <lastmod>2016-09-18T11:11:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.jiangyuqin.com/post/bootstrap2/1-less%E5%AE%9A%E5%88%B6/</loc>
+    <lastmod>2016-09-17T19:30:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.jiangyuqin.com/categories/bootstrap2/</loc>
+    <lastmod>2016-09-18T15:30:10+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.jiangyuqin.com/tags/daily/</loc>
-    <lastmod>2019-03-26T16:43:10+08:00</lastmod>
+    <loc>http://www.jiangyuqin.com/tags/bootstrap2/</loc>
+    <lastmod>2016-09-18T15:30:10+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jiangyuqin.com/categories/</loc>
+    <lastmod>2016-09-18T15:30:10+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.jiangyuqin.com/categories/daily/</loc>
+    <lastmod>2019-03-26T16:43:10+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jiangyuqin.com/tags/daily/</loc>
     <lastmod>2019-03-26T16:43:10+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -53,13 +86,13 @@
   </url>
   
   <url>
-    <loc>http://www.jiangyuqin.com/tags/muggle/</loc>
+    <loc>http://www.jiangyuqin.com/categories/muggle/</loc>
     <lastmod>2019-03-26T16:43:10+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.jiangyuqin.com/categories/muggle/</loc>
+    <loc>http://www.jiangyuqin.com/tags/muggle/</loc>
     <lastmod>2019-03-26T16:43:10+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -77,7 +110,7 @@
   
   <url>
     <loc>http://www.jiangyuqin.com/tags/</loc>
-    <lastmod>2019-03-26T16:43:10+08:00</lastmod>
+    <lastmod>2016-09-18T15:30:10+08:00</lastmod>
     <priority>0</priority>
   </url>
   

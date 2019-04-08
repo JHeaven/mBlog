@@ -113,7 +113,7 @@
           </li>
              
             <li class="nav-item ">
-              <a class="nav-link" href="http://www.jiangyuqin.com/blog/" >Blog  </a>
+              <a class="nav-link" href="http://www.jiangyuqin.com/post/" >Post  </a>
             </li>
           
              
@@ -287,6 +287,12 @@
 
   
 
+  
+
+  
+
+  
+
 
 
 
@@ -307,6 +313,15 @@
         
           
           
+            
+            <li class="py-1">
+              <a href="http://www.jiangyuqin.com/categories/bootstrap2">
+                <span>Bootstrap2 (3)</span>
+              </a>
+            </li>           
+          
+            
+              <li class="middot"></li>
             
             <li class="py-1">
               <a href="http://www.jiangyuqin.com/categories/muggle">
@@ -339,6 +354,12 @@
 
   
 
+  
+
+  
+
+  
+
 
 
 
@@ -358,6 +379,9 @@
       <div class="li-x post-meta tags-md" style="margin-left: -8px;">
         
         
+        
+            <li><a href="http://www.jiangyuqin.com/tags/bootstrap2" role="button"><span>bootstrap2 (3)</span></a></li>
+          
         
             <li><a href="http://www.jiangyuqin.com/tags/daily" role="button"><span>daily (1)</span></a></li>
           
@@ -407,7 +431,7 @@
               
                 <div class="px-2 middot"></div>
                 <div>
-                  3 posts
+                  6 posts
                 </div>
               
             </div>
@@ -488,14 +512,20 @@
     
         
           <li class="middot"></li>
-          <li>One minute read</li>
+          <li>2 minutes read</li>
         
       </ul>
     </div>
     
 
     
-      ``init……......
+      欢迎使用马克飞象 @(示例笔记本)[马克飞象|帮助|Markdown]
+马克飞象是一款专为印象笔记（Evernote）打造的Markdown编辑器，通过精心的设计与技术实现，配合印象笔记强大的存储和同步功能，带来前所未有的书写体验。特点概述：
+ 功能丰富 ：支持高亮代码块、LaTeX 公式、流程图，本地图片以及附件上传，甚至截图粘贴，工作学习好帮手； 得心应手 ：简洁高效的编辑器，提供桌面客户端以及离线Chrome App，支持移动端 Web； 深度整合 ：支持选择笔记本和添加标签，支持从印象笔记跳转编辑，轻松管理。  [TOC]
+Markdown简介  Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面。 —— 维基百科
+ 正如您在阅读的这份文档，它使用简单的符号标识不同的标题，将某些文字标记为粗体或者*斜体*，创建一个链接或一个脚注1。下面列举了几个高级功能，更多语法请按Ctrl &#43; /查看帮助。
+代码块 @requires_authorization def somefunc(param1=&#39;&#39;, param2=0): &#39;&#39;&#39;A docstring&#39;&#39;&#39; if param1 &gt; param2: # interesting print &#39;Greater&#39; return (param2 - param1 &#43; 1) or None class SomeClass: pass &gt;&gt;&gt; message = &#39;&#39;&#39;interpreter ... prompt&#39;&#39;&#39;  LaTeX 公式 可以创建行内公式，例如 $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$。或者块级公式：
+$$ x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$......
     
   </a>
 
@@ -579,6 +609,174 @@
       
     
       <li><a href="http://www.jiangyuqin.com/tags/hehehe" role="button">hehehe </a></li>
+      
+    
+  </div>
+</div>
+      
+    </div>
+  </div>
+
+</div>
+
+          
+              <div class="post-wrapper white-bg post-card">
+  
+  <a href="http://www.jiangyuqin.com/post/bootstrap2/3-%E5%B8%83%E5%B1%80/">
+    <div class="post-header text-center">
+      <div class="px-4 post-heading">Bootstrap2-3.布局</div>
+      <ul class="post-meta li-x mt-1">
+        
+          <li>Sep 18, 2016</li>
+        
+    
+        
+          <li class="middot"></li>
+          <li>One minute read</li>
+        
+      </ul>
+    </div>
+    
+
+    
+      Bootstrap2-3.布局 1.全局设置 必须使用HTML5文档类型  Bootstrap使用的某些HTML元素和CSS属性需要文档类型为HTML5 doctype。因此这一文档类型必须出现在项目的每个页面的开始部分。
+ &lt;!DOCTYPE html&gt; &lt;html lang=&#34;en&#34;&gt; ... &lt;/html&gt;  排版和链接 Bootstrap 为屏幕、排版和链接设置了基本的全局样式。尤其是，我们:  移除了 body的 margin 设置了 body 的背景颜色 background-color: white; 使用 @baseFontFamily、@baseFontSize 和@baseLineHeight 属性作为我们排版的基础 通过 @linkColor 设置全局链接颜色，并且，当链接处于 :hover 状态时才会带有下划线 &gt;这些样式可以在 scaffolding.less 文件中找到。  用Normalize重置样式  从 Bootstrap 2 开始, 老的重置方式被 Normalize.css 取代, 这是 Nicolas Gallagher 和Jonathan Neal 共同维护的一个项目，这一项目还被HTML5 Boilerplate 所采用。虽然我们在reset.less 文件中使用了许多Normalize的代码，但是，我们也移除了一些不适合Bootstrap的元素。
+ 2.默认栅格系统 栅格系统示例  Bootstrap默认的栅格系统为12列 ，形成一个940px宽的容器，默认没有启用 响应式布局特性 。如果加入响应式布局CSS文件，栅格系统会自动根据可视窗口的宽度从724px到1170px进行动态调整。在可视窗口低于767px宽的情况下，列将不再固定并且会在垂直方向堆叠。
+ 带有基本栅格的HTML代码  对于简单的两列式布局，创建一个 .......
+    
+  </a>
+
+  
+  
+  <div class="post-meta li-x mt-2 div-x">
+    <div>
+      
+        
+          <li><a href="http://www.jiangyuqin.com/categories/bootstrap2"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> bootstrap2 </a></li>
+        
+      
+      
+    </div>
+   
+    <div>
+      
+        
+<div class="li-x div-x post-meta">
+  <li class="pr-0"><a href="http://www.jiangyuqin.com/tags/"><i class="fas fa-tags"></i></a></li>
+  <div class="tags-sm">
+    
+      <li><a href="http://www.jiangyuqin.com/tags/bootstrap2" role="button">bootstrap2 </a></li>
+      
+    
+  </div>
+</div>
+      
+    </div>
+  </div>
+
+</div>
+
+          
+              <div class="post-wrapper white-bg post-card">
+  
+  <a href="http://www.jiangyuqin.com/post/bootstrap2/2-%E5%9F%BA%E7%A1%80%E6%A8%A1%E7%89%88/">
+    <div class="post-header text-center">
+      <div class="px-4 post-heading">Bootstrap2-2.基础模版</div>
+      <ul class="post-meta li-x mt-1">
+        
+          <li>Sep 18, 2016</li>
+        
+    
+        
+          <li class="middot"></li>
+          <li>One minute read</li>
+        
+      </ul>
+    </div>
+    
+
+    
+       Bootstrap2-2.基础模版 开发阶段 &lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;title&gt;Bootstrap 101 Template&lt;/title&gt; &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt; &lt;!-- Bootstrap --&gt; &lt;link rel=&#34;stylesheet/less&#34; href=&#34;source/less/bootstrap.less&#34;&gt; &lt;script src=&#34;source/js/less-1.7.0.js&#34;&gt;&lt;/script&gt; &lt;/head&gt; &lt;body&gt; &lt;script src=&#34;source/js/jquery.min.js&#34;&gt;&lt;/script&gt; &lt;script src=&#34;source/js/bootstrap.min.js&#34;&gt;&lt;/script&gt; &lt;/body&gt; &lt;/html&gt;  发布阶段 &lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;title&gt;Bootstrap 101 Template&lt;/title&gt; &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt; &lt;!-- Bootstrap --&gt; &lt;link href=&#34;css/bootstrap.min.css&#34; rel=&#34;stylesheet&#34; media=&#34;screen&#34;&gt; &lt;/head&gt; &lt;body&gt; &lt;h1&gt;Hello, world!&lt;/h1&gt; &lt;script src=&#34;http://code.jquery.com/jquery.js&#34;&gt;&lt;/script&gt; &lt;script src=&#34;js/bootstrap.min.js&#34;&gt;&lt;/script&gt; &lt;/body&gt; &lt;/html&gt;  ......
+    
+  </a>
+
+  
+  
+  <div class="post-meta li-x mt-2 div-x">
+    <div>
+      
+        
+          <li><a href="http://www.jiangyuqin.com/categories/bootstrap2"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> bootstrap2 </a></li>
+        
+      
+      
+    </div>
+   
+    <div>
+      
+        
+<div class="li-x div-x post-meta">
+  <li class="pr-0"><a href="http://www.jiangyuqin.com/tags/"><i class="fas fa-tags"></i></a></li>
+  <div class="tags-sm">
+    
+      <li><a href="http://www.jiangyuqin.com/tags/bootstrap2" role="button">bootstrap2 </a></li>
+      
+    
+  </div>
+</div>
+      
+    </div>
+  </div>
+
+</div>
+
+          
+              <div class="post-wrapper white-bg post-card">
+  
+  <a href="http://www.jiangyuqin.com/post/bootstrap2/1-less%E5%AE%9A%E5%88%B6/">
+    <div class="post-header text-center">
+      <div class="px-4 post-heading">Bootstrap2-1.LESS定制</div>
+      <ul class="post-meta li-x mt-1">
+        
+          <li>Sep 17, 2016</li>
+        
+    
+        
+          <li class="middot"></li>
+          <li>One minute read</li>
+        
+      </ul>
+    </div>
+    
+
+    
+      Bootstrap2-1.LESS定制 Less 简介  CSS（层叠样式表）是一门历史悠久的标记性语言，同 HTML 一道，被广泛应用于万维网（World Wide Web）中。HTML 主要负责文档结构的定义，CSS 负责文档表现形式或样式的定义。作为一门标记性语言，CSS 的语法相对简单，对使用者的要求较低，但同时也带来一些问题：CSS 需要书写大量看似没有逻辑的代码，不方便维护及扩展，不利于复用，尤其对于非前端开发工程师来讲，往往会因为缺少 CSS 编写经验而很难写出组织良好且易于维护的 CSS 代码，造成这些困难的很大原因源于 CSS 是一门非程序式语言，没有变量、函数、SCOPE（作用域）等概念。LESS 为 Web 开发者带来了福音，它在 CSS 的语法基础之上，引入了变量，Mixin（混入），运算以及函数等功能，大大简化了 CSS 的编写，并且降低了 CSS 的维护成本，就像它的名称所说的那样，LESS 可以让我们用更少的代码做更多的事情。
+ LESS 原理及使用方式  本质上，LESS 包含一套自定义的语法及一个解析器，用户根据这些语法定义自己的样式规则，这些规则最终会通过解析器，编译生成对应的 CSS 文件。LESS 并没有裁剪 CSS 原有的特性，更不是用来取代 CSS 的，而是在现有 CSS 语法的基础上，为 CSS 加入程序式语言的特性。LESS 是动态的样式表语言，通过简洁明了的语法定义，使编写 CSS 的工作变得非常简单。本文将通过实例，为大家介绍这一框架。
+ 代码清单 1. LESS文件  LESS代码
+@color: #4D926F; #header{ color: @color; } h2{ color: @color; }   2. CSS文件  编译生成的CSS文件如下......
+    
+  </a>
+
+  
+  
+  <div class="post-meta li-x mt-2 div-x">
+    <div>
+      
+        
+          <li><a href="http://www.jiangyuqin.com/categories/bootstrap2"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> bootstrap2 </a></li>
+        
+      
+      
+    </div>
+   
+    <div>
+      
+        
+<div class="li-x div-x post-meta">
+  <li class="pr-0"><a href="http://www.jiangyuqin.com/tags/"><i class="fas fa-tags"></i></a></li>
+  <div class="tags-sm">
+    
+      <li><a href="http://www.jiangyuqin.com/tags/bootstrap2" role="button">bootstrap2 </a></li>
       
     
   </div>
